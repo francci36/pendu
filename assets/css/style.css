@@ -1,0 +1,35 @@
+body{
+background-image: url('../img/tree-736885_960_720.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+color: red;
+font-size: 22px;
+font-size: bold;
+}
+.pendu{
+    margin: 0 auto;
+    text-align: center;
+}
+input{
+    margin: 0 auto;
+    width: 100%;
+}
+textarea{
+    width: 100%;
+}
+.input label, input input, input textarea{
+    display: block;
+}
+button{
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+button:first-child{
+    background: red;
+}
+button:last-child{
+    background: green;   
+}
